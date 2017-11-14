@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="402.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controle.IniciarJogoPadraoController">
+   <children>
+      <TextField fx:id="textQuantidadeJogadores" layoutX="26.0" layoutY="44.0" />
+      <Label fx:id="lblQuantidadeJogadores" layoutX="26.0" layoutY="23.0" text="Quantidade de Jogadores" />
+      <TextField fx:id="textQuantidadeJogadas" layoutX="26.0" layoutY="113.0" />
+      <Label fx:id="lblQuantidadeJogadas" layoutX="26.0" layoutY="92.0" text="Quantidade de jogadas por jogador" />
+      <Label fx:id="lblTamanhoNome" layoutX="26.0" layoutY="154.0" text="Tamanho do nome dos jogadores" />
+      <TextField fx:id="textTamanhoNome" layoutX="26.0" layoutY="175.0" />
+      <Separator layoutX="296.0" layoutY="3.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Separator layoutX="296.0" layoutY="191.0" orientation="VERTICAL" prefHeight="200.0" />
+      <Label fx:id="lblNomeJogador1" layoutX="322.0" layoutY="12.0" text="Nome Jogador 1" />
+      <TextField fx:id="textJogador1" disable="true" layoutX="322.0" layoutY="33.0" />
+      <Label fx:id="lblNomeJogador2" layoutX="322.0" layoutY="65.0" text="Nome Jogador 2" />
+      <TextField fx:id="textJogador2" disable="true" layoutX="322.0" layoutY="87.0" />
+      <Label fx:id="lblNomeJogador3" layoutX="322.0" layoutY="122.0" text="Nome Jogador 3" />
+      <TextField fx:id="textJogador3" disable="true" layoutX="322.0" layoutY="143.0" />
+      <Label fx:id="lblNomeJogador14" layoutX="322.0" layoutY="180.0" text="Nome Jogador 4" />
+      <TextField fx:id="textJogador4" disable="true" layoutX="322.0" layoutY="203.0" />
+      <Label fx:id="lblNomeJogador5" layoutX="322.0" layoutY="238.0" text="Nome Jogador 5" />
+      <TextField fx:id="textJogador5" disable="true" layoutX="322.0" layoutY="258.0" />
+      <Label fx:id="lblNomeJogador6" layoutX="322.0" layoutY="286.0" text="Nome Jogador 6" />
+      <TextField fx:id="textJogador6" disable="true" layoutX="322.0" layoutY="309.0" />
+      <Label fx:id="lblNomeJogador7" layoutX="322.0" layoutY="340.0" text="Nome Jogador 7" />
+      <TextField fx:id="textJogador7" disable="true" layoutX="322.0" layoutY="361.0" />
+      <Button fx:id="btnJogar" layoutX="24.0" layoutY="223.0" mnemonicParsing="false" onAction="#jogarClick" prefHeight="31.0" prefWidth="76.0" text="Jogar" />
+      <Button fx:id="btnSair" layoutX="190.0" layoutY="223.0" mnemonicParsing="false" onAction="#sairClick" prefHeight="31.0" prefWidth="76.0" text="Sair" />
+      <Button fx:id="btnLimpar" layoutX="106.0" layoutY="223.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="76.0" text="Limpar" />
+      <Button fx:id="definir" layoutX="219.0" layoutY="44.0" mnemonicParsing="false" onAction="#definirClick" text="Definir" />
+   </children>
+</AnchorPane>

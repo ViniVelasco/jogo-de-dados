@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="306.0" prefWidth="242.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.60">
+   <children>
+      <TextField fx:id="textQuantidadeJogadores" layoutX="29.0" layoutY="35.0" />
+      <Label fx:id="lblQuantidadeJogadores" layoutX="29.0" layoutY="14.0" text="Quantidade de Jogadores" />
+      <TextField fx:id="textQuantidadeJogadas" layoutX="29.0" layoutY="87.0" />
+      <Label fx:id="lblQuantidadeJogadas" layoutX="29.0" layoutY="66.0" text="Quantidade de jogadas" />
+      <TextField fx:id="textTamanhoNome" layoutX="28.0" layoutY="138.0" />
+      <Label fx:id="lblTamanhoNome" layoutX="31.0" layoutY="118.0" text="Tamanho do nome" />
+      <Button fx:id="btnJogar" layoutX="27.0" layoutY="180.0" mnemonicParsing="false" onAction="#jogarClick" text="Jogar" />
+      <Button fx:id="btnLimpar" layoutX="94.0" layoutY="180.0" mnemonicParsing="false" onAction="#limparClick" text="Limpar" />
+      <Button fx:id="btnSair" layoutX="172.0" layoutY="180.0" mnemonicParsing="false" onAction="#sairClick" text="Sair" />
+   </children>
+</AnchorPane>
